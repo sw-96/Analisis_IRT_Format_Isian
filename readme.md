@@ -1,5 +1,5 @@
 # Dokumentasi Automasi Analisis IRT
-## Updated: 29 Jan 2024
+## Updated: 26 Feb 2024
 
 ### Post-Download Hasil Tryout
 Gunakan 00_scanning_files.R untuk menghapus file duplikasi sebelum dipindahkan ke folder input_tl & input_tps. Hal ini dilakukan karena ada kasus dimana 1 orang dapat melakukan submit jawaban lebih dari satu kali.
