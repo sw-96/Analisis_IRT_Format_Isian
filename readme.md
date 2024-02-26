@@ -48,7 +48,8 @@ Data-data yang akan digunakan dalam analis IRT
 1. Isikan data-data siswa yang tidak menjawab soal tps maupun tl pada file-file xlsx yang tersedia pada folder "daftar_peserta_tidak_menjawab"
 2. Masukkan file xlsx yang berisi respon jawaban siswa untuk tps dan tl pada masing-masing folder "input_tps" & "input_tl" dengan menggunakan format penamaan baru, seperti TPS1, TPS2, TPS3, ..., TPSn & TL1, TL2, TL3, ..., TLn
 3. Membuka script 0_penambah_tanggal_tes.R, mengubah tanggal sesuai kebutuhan (line 23 & line 38), dan menjalankannya menggunakan Rstudio
-4. Membuka file "a_data_preparation.R" & "b_automasi_analisis_irt.R" menggunakan Rstudio
-5. Menjalankan "a_data_preparation.R" untuk mempersiapkan data yang akan digunakan dalam analis irt
-6. Menjalankan "b_automasi_analisis_irt.R" untuk melakukan analisis irt dan memperoleh nilai seluruh siswa untuk setiap subtes beserta reratanya
-7. Langkah 4-6 dapat dilakukan juga menggunakan all_in_one.R
+4. Membuat 2 buah folder baru dengan nama masing-masing "ready_data" dan "hasil_analisis_irt", tanpa tanda petik. Folder ini ditunjukkan untuk menampung data program a_data_preparation.R dan b_automasi_analisis_irt.R
+5. Membuka file "a_data_preparation.R" & "b_automasi_analisis_irt.R" menggunakan Rstudio
+6. Menjalankan "a_data_preparation.R" untuk mempersiapkan data yang akan digunakan dalam analis irt
+7. Menjalankan "b_automasi_analisis_irt.R" untuk melakukan analisis irt dan memperoleh nilai seluruh siswa untuk setiap subtes beserta reratanya
+8. Langkah 4-6 dapat dilakukan juga menggunakan all_in_one.R
